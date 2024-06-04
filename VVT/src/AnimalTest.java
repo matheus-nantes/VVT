@@ -6,7 +6,7 @@ class AnimalTest {
 
 	Animal animal = new Animal();	@Test
 	void retornarAnimalTest() {
-		assertEquals("Sapo Venenoso", animal.retornarAnimal("Anfíbio","Tropical","Ovíparo","Alta"));
+		assertEquals("Moréia", animal.retornarAnimal("Peixe","Recife","Ovíparo","Moderada"));
 	}
 
 }

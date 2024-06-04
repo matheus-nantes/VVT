@@ -1,0 +1,32 @@
+/* styles.css */
+.button {
+    -fx-background-color: #4CAF50; /* Cor de fundo verde */
+    -fx-text-fill: white; /* Cor do texto branco */
+    -fx-font-size: 16px; /* Tamanho da fonte */
+    -fx-border-radius: 5px; /* Bordas arredondadas */
+    -fx-min-width: 75px; /* Largura mínima do botão */
+    -fx-max-width: 150px; /* Largura máxima do botão */
+}
+
+.button:hover {
+    -fx-background-color: #185f1c; /* Cor de fundo verde mais escura quando hover */
+}
+
+.label {
+    -fx-font-size: 16px; /* Tamanho da fonte */
+    -fx-text-fill: #000000; /* Cor do texto */
+    -fx-padding: 5px 5px; /* Padding */
+    -fx-background-color: #ffffff; /* Cor de fundo amarelo */
+    -fx-border-radius: 2px; /* Bordas arredondadas */
+    -fx-min-width: 75px; /* Largura mínima do botão */
+    -fx-max-width: 150px; /* Largura máxima do botão */
+}
+
+
+.hbox {
+    -fx-spacing: 5; /* Espaçamento entre os elementos no HBox */
+    -fx-padding: 5; /* Padding ao redor do HBox */
+    -fx-background-color: #000000;
+    -fx-min-width: 532px; /* Largura mínima do botão */
+    -fx-max-width: 532px;
+}
